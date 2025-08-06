@@ -23,15 +23,23 @@
           <p>Fill in with your card details:</p>
         </section>
         <section id="input">
-          <from>
+          <form action="thanks.html">
             <label id="labelCVV">Variable Valve Control</label>
-            <input id="inputname" type="text" name="labelCVV" id="labelCVV" pattern="[0-9]{3,4}" required />
-          </from>
-        </section>
-        <section id="button">
-          <button id="buttonNext">
-            <span class="spanBTN">Complete</span>
-          </button>
+            <input
+              id="inputname"
+              type="text"
+              name="labelCVV"
+              id="labelCVV"
+              pattern="[0-9]{3,4}"
+              placeholder="cvv"
+              required
+            />
+            <section id="button">
+              <button id="buttonNext" type="submit">
+                <span class="spanBTN">Complete</span>
+              </button>
+            </section>
+          </form>
         </section>
       </main>
     </div>
